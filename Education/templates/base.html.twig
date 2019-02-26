@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheets" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+
+
+    <nav class = "navbar navbar-expand-lg navbar-dark bg-primaire">
+        <a class="navbar-brand" href="/"> symblog </a>
+        <bouton class = "navbar-toggler" type = "bouton" data-toggle = "collapse"
+                data-target = "# navbarColor01" aria-controls = "navbarColor01"
+                aria-expand = "false" aria-label = "Basculer la navigation ">
+            <span class = "navbar-toggler-icon"> </span>
+        </bouton>
+
+        <div class = "collapse navbar-collapse" id = "navbarColor01">
+            <ul class = "navbar-nav mr-auto">
+                <li class = "article de navigation">
+                    <a class="nav-link" href="/blog"> Article </a>
+                </li>
+
+                <li class = "nav-item">
+                    <a class="nav-link" href="/blog/new"> cree un article </a>
+                </li>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            {% block body %}{% endblock %}
+        </div>
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
