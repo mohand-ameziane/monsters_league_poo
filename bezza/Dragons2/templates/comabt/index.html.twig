@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ComabtController !{% endblock %}
+
+{% block body %}
+    <style>
+        .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+        .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    </style>
+    <div class="jumbotron">
+        <h1 class="display-4">bienvenue a la page Combat </h1>
+        <p class="lead"></p>
+        <hr class="my-4">
+    </div>
+
+    <div class="example-wrapper">
+
+
+        <div class="row mx-md-n5">
+            <div class="px-md-100">
+                <div class="p-3 ">
+
+
+                    <article>
+                        <div>Le Nom de personnage: {{ persnom }} </div>
+                        <img src="bundles/easyadmin/images/person.png/250" alt="">
+                        <div class="metadata">La durée de vie: {{ persvie }}  </div>
+                        <div class="metadata">La puissance:  {{ perspuissance }}  </div>
+                        <div class="metadata">La défanse:  {{ persdefense }} </div>
+                        <div>La vitesse: {{ persvitesse }}  </div>
+                        <div class="metadata">La dex: {{ persdex }} </div>
+
+                    </article>
+
+                </div>
+            </div>
+
+            <div class=" px-md-5">
+                <div class="p-3 ">
+
+                    <article>
+                        <div>Le Nom de Dragon{{ dragonnom }} </div>
+                        <img src="bundles/easyadmin/images/dra.png/250" alt="">
+                        <div class="metadata">La durée de vie {{ dragonvie }} </div>
+                        <div class="metadata">La puissance {{ dragonpuissance }} </div>
+                        <div class="metadata">La défanse {{ dragondefanse }}</div>
+                        <div>La vitesse {{ dragonvitesse }}</div>
+                        <div class="metadata">La dex {{ dragondex }} </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">le resulta de combat   </h1>
+        <h4 > {{ persnom }} VS {{ dragonnom }}  </h4>
+        <p class="lead"></p>
+    </div>
+
+
+
+
+
+    <div class="jumbotron bg-success text-white">
+        {% if  persvitesse > dragonvitesse and persvie > dragonvie %}
+            {% if  perspuissance > dragonpuissance %}
+                <h2>le Personnage {{ persnom  }}  à Gagné </h2>
+                {% if  persdefense > dragondefanse %}
+                    <h2>le Personnage {{ persnom  }}  à Gagné </h2>
+
+                    {% if  persdefense > dragondefanse %}
+                        <h2>le Personnage {{ persnom  }}  à Gagné </h2>
+
+                    {% endif %}
+
+
+                {% else %}
+                    <h2>le Personnage {{ persnom  }}  à Gagné </h2>
+                {% endif %}
+            {% else %}
+                <h2>le Personnage {{ persnom  }}  à Gagné </h2>
+            {% endif %}
+
+        {% else %}
+
+            {% if  perspuissance < dragonpuissance %}
+                <h2>le Dragon {{  dragonnom }}  à Gagné </h2>
+                {% if  persdefense < dragondefanse %}
+                    <h2>le Dragon {{  dragonnom }}  à Gagné </h2>
+
+                    {% if  persdefense < dragondefanse %}
+                        <h2>le Dragon {{  dragonnom }}  à Gagné </h2>
+                    {% endif %}
+
+                {% else %}
+                    <h2>le Dragon {{  dragonnom }}  à Gagné </h2>
+                {% endif %}
+
+                <h2>le Dragon {{  dragonnom }}  à Gagné </h2>
+            {% else %}
+            {% endif %}
+
+
+
+
+        {% endif %}
+
+    </div>
+
+{% endblock %}
+

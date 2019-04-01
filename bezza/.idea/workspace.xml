@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5d3dc39-37f7-4a51-8fba-b5c0aac8dc2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dragons2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/config/packages/security_checker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Controller/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Entity/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Form/ArticleType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Migrations/Version20190217174349.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/src/Repository/ArticleRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/templates/article/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/templates/article/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/templates/article/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Education/templates/homepage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bezza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/dragons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/AccueilController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/AjouPersonnageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/AjoutDragonControlleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/ComabtController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Controller/RechercheController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Entity/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Entity/Dragon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Entity/Personnage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Entity/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Migrations/Version20190330223806.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Repository/DragonRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/src/Repository/PersonnageRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/accueil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/admin/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/ajou_personnage/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/ajout_dragon_controlle/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/comabt/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragons2/templates/recherche/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/doclinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/jquery.instantSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/scss/admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/assets/scss/bootstrap-tagsinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/assets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/security_checker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/html_sanitizer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/security_checker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/dama_doctrine_test_bundle.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/twig_extensions.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/data/database.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/data/database_test.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/0.830d5dde.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/1.bdd72f15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/2.dbd2ede0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/css/admin.1b3ff8e3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/css/app.4aa95248.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/entrypoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/fontawesome-webfont.674f50d2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/fontawesome-webfont.af7ae505.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/fontawesome-webfont.b06871f2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/fontawesome-webfont.fee66e71.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-bold-italic.0b6bb672.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-bold-italic.9c7e4e9e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-bold.cccb8974.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-bold.d878b6c2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-normal-italic.4eb103b4.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-normal-italic.f28f2d64.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-normal.27bd77b9.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/fonts/lato-normal.bd03a2cc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/images/fontawesome-webfont.912ec66d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/js/admin.4ca6ad4a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/js/app.b0ae906f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/js/login.71306f38.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/js/search.6682ea4d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/build/runtime.6cf710cd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Command/AddUserCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Command/DeleteUserCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Command/ListUsersCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Controller/Admin/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Controller/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Entity/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Entity/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Entity/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/EventSubscriber/CheckRequirementsSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/EventSubscriber/CommentNotificationSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/EventSubscriber/ControllerSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/EventSubscriber/RedirectToPreferredLocaleSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Events.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/CommentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/DataTransformer/TagArrayToStringTransformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/PostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/Type/ChangePasswordType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/Type/DateTimePickerType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/Type/TagsInputType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Repository/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Repository/TagRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Security/PostVoter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Twig/AppExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Twig/SourceCodeExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Utils/Markdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Utils/MomentFormatConverter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Utils/Slugger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/src/Utils/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/blog/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/admin/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/_comment_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/_delete_post_confirmation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/_post_tags.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/_rss.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/comment_form_error.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/index.xml.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/post_show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/blog/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/bundles/TwigBundle/Exception/error403.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/bundles/TwigBundle/Exception/error500.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/debug/source_code.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/default/_flash_messages.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/default/homepage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/form/fields.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/form/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/user/change_password.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/templates/user/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Command/AddUserCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Controller/Admin/BlogControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Controller/BlogControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Controller/UserControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Form/DataTransformer/TagArrayToStringTransformerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Utils/SluggerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/tests/Utils/ValidatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.bg.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.ca.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.cs.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.de.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.en.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.es.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.fr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.hr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.id.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.it.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.ja.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.lt.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.nl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.pl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.pt_BR.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.ro.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.ru.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.sl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.tr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.uk.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/messages+intl-icu.zh_CN.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.bg.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.ca.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.cs.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.de.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.en.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.es.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.fr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.hr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.id.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.it.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.ja.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.nl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.pl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.pt_BR.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.ro.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.ru.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.sl.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.tr.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.uk.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/translations/validators+intl-icu.zh_CN.xlf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/Dragons-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/dev/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/sensio_framework_extra.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/packages/test/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/test/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragons-master/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.idea/Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/.idea/Education.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/bin/phpunit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/dev/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/test/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/src/Controller/BlogController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/src/Migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/tests/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../Education/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/templates/blog/home.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/templates/blog/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/tests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Dragons2/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Education/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-master/src/Migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/Ajoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/AjouteMonste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/fight.php" beforeDir="false" afterPath="$PROJECT_DIR$/../monsters_league_poo/fight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../monsters_league_poo/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../monsters_league_poo/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo/monster.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../monsters_league_poo2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testlink-1.9.18" beforeDir="false" afterPath="$PROJECT_DIR$/../testlink-1.9.18" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Dragons2/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dragons2/templates/recherche/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="78" column="64" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dragons2/templates/comabt/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-436">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dragons2/src/Controller/RechercheController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#34#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>valide</find>
+      <find>com</find>
+      <find>valide</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dragons2/.env" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/src/Entity/Personnage.php" />
+        <option value="$PROJECT_DIR$/Dragons2/src/Controller/ComabtController.php" />
+        <option value="$PROJECT_DIR$/Dragons2/config/packages/twig.yaml" />
+        <option value="$PROJECT_DIR$/Dragons2/src/Controller/AjouPersonnageController.php" />
+        <option value="$PROJECT_DIR$/Dragons2/src/Controller/AjoutDragonControlleController.php" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/ajou_personnage/index.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/ajout_dragon_controlle/index.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/accueil.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/src/Controller/RechercheController.php" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/comabt/index.html.twig" />
+        <option value="$PROJECT_DIR$/Dragons2/templates/recherche/index.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Dragons2/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/composer" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/Dragons2/vendor/symfony/test-pack" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="comabt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bezza" type="462c0819:PsiDirectoryNode" />
+              <item name="Dragons2" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d3dc39-37f7-4a51-8fba-b5c0aac8dc2c" name="Default Changelist" comment="" />
+      <created>1553984468469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553984468469</updated>
+      <workItem from="1553984470517" duration="2431000" />
+      <workItem from="1554033405888" duration="25788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28219000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32299545" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21405229" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dragons2/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/tests/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/var/log/dev.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#23#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/public/bundles/easyadmin/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Entity/Personnage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Controller/ComabtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Controller/AjouPersonnageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Controller/AjoutDragonControlleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#34#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/ajou_personnage/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/ajout_dragon_controlle/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/src/Controller/RechercheController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#34#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/comabt/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragons2/templates/recherche/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="78" column="64" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

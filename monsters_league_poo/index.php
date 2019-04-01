@@ -1,7 +1,9 @@
 <?php
+
 require __DIR__ . '/functions.php';
-$monsters = getMonstersObjet();
-var_dump($monsters);
+
+$monsters = getMonsters();
+
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +18,6 @@ var_dump($monsters);
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     </head>
     <body>
-    <main>
-    <input type="button" class="btn btn-md btn-danger center-block" type="submit" value="ajoute un monster" onclick="document.location.href='./AjouteMonste.php';">
-    </main>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Monsters League</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,10 +58,10 @@ var_dump($monsters);
                 <tbody>
                     <?php foreach ($monsters as $monster) { ?>
                         <tr>
-                            <td><?php echo $monster->getName(); ?></td>
-                            <td><?php echo $monster->getlastName(); ?></td>
-                            <td><?php echo $monster->getage(); ?></td>
-                            <td><?php echo $monster->getcolor(); ?></td>
+                            <td><?php echo $monster['name']; ?></td>
+                            <td><?php echo $monster['strength']; ?></td>
+                            <td><?php echo $monster['life']; ?></td>
+                            <td><?php echo $monster['type']; ?></td>
                         </tr>
                     <?php } ?>
                 </tbody>
@@ -75,7 +74,7 @@ var_dump($monsters);
                         <select class=" form-control" name="first_monster_name">
                             <option value="">Choose a Monster</option>
                             <?php foreach ($monsters as $key => $monster) { ?>
-                                <option value="<?php echo $key; ?>"><?php echo $monster->getname(); ?></option>
+                                <option value="<?php echo $key; ?>"><?php echo $monster['name']; ?></option>
                             <?php } ?>
                         </select>
                         <br>
@@ -84,7 +83,7 @@ var_dump($monsters);
                         <select class="form-control" name="second_monster_name">
                             <option value="">Choose a Monster</option>
                             <?php foreach ($monsters as $key => $monster) { ?>
-                                <option value="<?php echo $key; ?>"> <?php echo $monster->getname(); ?></option>
+                                <option value="<?php echo $key; ?>"><?php echo $monster['name']; ?></option>
                             <?php } ?>
                         </select>
                         <br>

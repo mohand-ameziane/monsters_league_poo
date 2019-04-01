@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AdminController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+    <div class="jumbotron">
+        <h1 class="display-4">la page admin</h1>
+        <p class="lead">pour ajoute un personnage remplire tout les c</p>
+        <hr class="my-4">
+    </div>
+
+<div class="example-wrapper">
+
+    <button href="/ajou_personnage" class="btn btn-md center-block"   >Ajoute Dragon</button>
+    <a href="{{ path('ajou_personnage') }}" class="btn
+                  btn-primary"> Ajoute personnage</a>
+    <a href="{{ path('ajout_dragon_controlle') }}" class="btn
+                  btn-primary"> Ajoute Dragon</a>
+</div>
+{% endblock %}

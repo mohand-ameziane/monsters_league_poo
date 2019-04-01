@@ -1,8 +1,12 @@
 <?php
+
 require __DIR__ . '/functions.php';
+
 $monsters = getMonsters();
+
 $firstMonsterName = isset($_POST['first_monster_name']) ? $_POST['first_monster_name'] : null;
 $secondMonsterName = isset($_POST['second_monster_name']) ? $_POST['second_monster_name'] : null;
+
 /**
  * On redirige l'utilisateur vers la page d'accueil dans le cas où le formulaire est vide
  */
@@ -10,6 +14,7 @@ if (is_null($firstMonsterName) || is_null($secondMonsterName)) {
     header('Location: /index.php?error=missing_data');
     die;
 }
+
 /**
  * On redirige l'utilisateur vers la page d'accueil si les monstres n'existent pas dans notre tableau
  */
@@ -17,9 +22,12 @@ if (!isset($monsters[$firstMonsterName]) || !isset($monsters[$secondMonsterName]
     header('Location: /index.php?error=bad_ships');
     die;
 }
+
 $firstMonster = $monsters[$firstMonsterName];
 $secondMonster = $monsters[$secondMonsterName];
+
 $fightResult = fight($firstMonster, $secondMonster);
+
 ?>
 
 <!DOCTYPE html>
