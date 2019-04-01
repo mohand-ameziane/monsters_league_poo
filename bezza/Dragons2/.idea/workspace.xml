@@ -2,344 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84527d7e-4329-40d0-b96c-84dfb1dc55ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Dragons2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/config/packages/security_checker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Form/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Migrations/Version20190217174349.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/templates/article/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/templates/article/list.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/templates/article/read.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Education/templates/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/bezza.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dragons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AccueilController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AjouPersonnageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AjoutDragonControlleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ComabtController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RechercheController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Dragon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Personnage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190330223806.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DragonRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/PersonnageRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accueil.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ajou_personnage/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ajout_dragon_controlle/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/comabt/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recherche/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.php_cs.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/doclinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/jquery.instantSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/scss/admin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/assets/scss/bootstrap-tagsinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/assets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/security_checker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/html_sanitizer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/security_checker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/dama_doctrine_test_bundle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/twig_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/data/database.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/data/database_test.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/0.830d5dde.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/1.bdd72f15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/2.dbd2ede0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/css/admin.1b3ff8e3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/css/app.4aa95248.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/entrypoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/fontawesome-webfont.674f50d2.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/fontawesome-webfont.af7ae505.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/fontawesome-webfont.b06871f2.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/fontawesome-webfont.fee66e71.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-bold-italic.0b6bb672.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-bold-italic.9c7e4e9e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-bold.cccb8974.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-bold.d878b6c2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-normal-italic.4eb103b4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-normal-italic.f28f2d64.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-normal.27bd77b9.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/fonts/lato-normal.bd03a2cc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/images/fontawesome-webfont.912ec66d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/js/admin.4ca6ad4a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/js/app.b0ae906f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/js/login.71306f38.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/js/search.6682ea4d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/build/runtime.6cf710cd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Command/AddUserCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Command/DeleteUserCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Command/ListUsersCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Controller/Admin/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Entity/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Entity/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/EventSubscriber/CheckRequirementsSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/EventSubscriber/CommentNotificationSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/EventSubscriber/ControllerSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/EventSubscriber/RedirectToPreferredLocaleSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/CommentType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/DataTransformer/TagArrayToStringTransformer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/PostType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/Type/ChangePasswordType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/Type/DateTimePickerType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/Type/TagsInputType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Repository/PostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Repository/TagRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Security/PostVoter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Twig/AppExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Twig/SourceCodeExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Utils/Markdown.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Utils/MomentFormatConverter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Utils/Slugger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/src/Utils/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/blog/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/admin/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/_comment_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/_delete_post_confirmation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/_post_tags.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/_rss.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/comment_form_error.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/index.xml.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/post_show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/blog/search.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/bundles/TwigBundle/Exception/error403.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/bundles/TwigBundle/Exception/error500.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/debug/source_code.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/default/_flash_messages.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/default/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/form/fields.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/form/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/user/change_password.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/templates/user/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Command/AddUserCommandTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Controller/Admin/BlogControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Controller/BlogControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Controller/UserControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Form/DataTransformer/TagArrayToStringTransformerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Utils/SluggerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/tests/Utils/ValidatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.bg.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.ca.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.cs.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.de.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.es.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.hr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.id.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.it.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.ja.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.lt.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.nl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.pl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.pt_BR.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.ro.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.ru.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.sl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.tr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.uk.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/messages+intl-icu.zh_CN.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.bg.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.ca.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.cs.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.de.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.es.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.hr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.id.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.it.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.ja.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.nl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.pl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.pt_BR.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.ro.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.ru.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.sl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.tr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.uk.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/translations/validators+intl-icu.zh_CN.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo-master/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/Dragons-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/bundles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/dev/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/sensio_framework_extra.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/packages/test/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dragons-master/symfony.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.idea/Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/.idea/Education.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/dev/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/test/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/src/Controller/BlogController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Education/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/templates/blog/home.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/templates/blog/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/tests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Education/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-master/src/Migrations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../blog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/Ajoute.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/AjouteMonste.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/fight.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../monsters_league_poo/fight.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../monsters_league_poo/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../monsters_league_poo/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo/monster.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../monsters_league_poo2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dragons2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dragons2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dragons2 - Copie" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dragons2 - Copie" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../testlink-1.9.18" beforeDir="false" afterPath="$PROJECT_DIR$/../../testlink-1.9.18" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -460,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/comabt/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="231">
+              <caret line="103" column="61" selection-start-line="103" selection-start-column="61" selection-end-line="103" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -684,7 +348,7 @@
       <workItem from="1553677814814" duration="1915000" />
       <workItem from="1553775840672" duration="3323000" />
       <workItem from="1553941273913" duration="13213000" />
-      <workItem from="1554070872526" duration="10035000" />
+      <workItem from="1554070872526" duration="10368000" />
     </task>
     <task id="LOCAL-00001" summary="ajoute des donnée">
       <created>1553506216540</created>
@@ -704,10 +368,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49720000" />
+    <option name="totallyTimeSpent" value="50053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -880,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comabt/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="231">
+          <caret line="103" column="61" selection-start-line="103" selection-start-column="61" selection-end-line="103" selection-end-column="61" />
         </state>
       </provider>
     </entry>
